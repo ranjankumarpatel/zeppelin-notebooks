@@ -7,6 +7,8 @@ ambari-admin-password-reset
 wget https://archive.cloudera.com/hwx-sandbox/hdp/hdp-2.5.0/HDP_2.5_docker.tar.gz
 docker load < HDP_2.5_docker.tar.gz
 wget https://gist.githubusercontent.com/orendain/8d05c5ac0eecf226a6fed24a79e5d71a/raw/041ddbe52687570923bb51c5fe988c88cba94d64/start-sandbox-hdp-25.sh
+docker tag sandbox:latest docker13972684/hdp-sandbox:2.5
+docker push docker13972684/hdp-sandbox:2.5
 
 
 # HDP 2.6.5
