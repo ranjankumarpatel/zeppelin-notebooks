@@ -14,3 +14,5 @@ docker push docker13972684/hdp-sandbox:2.5
 # HDP 2.6.5
 wget https://archive.cloudera.com/hwx-sandbox/hdp/hdp-2.6.5/HDP_2.6.5_deploy-scripts_180624d542a25.zip
 
+https://zeppelin.apache.org/docs/0.7.3/rest-api/rest-notebook.html#run-all-paragraphs
+
